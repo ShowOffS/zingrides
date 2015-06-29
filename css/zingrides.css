@@ -18,8 +18,27 @@ body {
     margin-top: -7px;
 }
 
+
+.navbar-inner {
+    text-align:center;
+}
+
+.navbar .brand.hidden-desktop{
+    float:none;
+}
+
 .companyName {
     
+}
+
+.vspace30{
+    padding: 30px 0;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 h2{     
@@ -60,6 +79,15 @@ h2{
     width: 70%;
     margin: auto;
 }
+
+
+.column-center{
+    text-align: center;
+}
+
+
+
+
 
 .footer{
   height: 100px;

@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -100px;
+  /* Pad bottom by footer height */
+  padding: 0 0 100px;
+}
+
+
+.logo{
+    max-width: 100px;   
+    margin-top: -7px;
+}
+
+.companyName {
+    
+}
+
+h2{     
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #fff;    
+    text-align: center;
+    height: 400px !important;
+}
+.carousel{
+}
+.zing-carousel{
+}
+.sliderImage{
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+#howItWorks h2{
+    text-align: center;
+}
+
+#howItWorks img {
+    max-width: 200px;
+}
+
+#aboutHolder {
+    width: 70%;
+    margin: auto;
+}
+
+.footer{
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
+.footer-social { float: left; margin-top:5px; }
+.footer-social ul { padding:0; margin:0 0 0 10px;}
+.footer-social li {float:left; list-style:none; margin-left:5px;}
+.footer-social li img {max-width: 70px;}
+.footer-social span { margin-top: -20px;}

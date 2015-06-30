@@ -53,16 +53,21 @@ h2{
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
-.item{
+
+.zing-carousel{
+    margin-top: -20px;
+}
+
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
     background: #fff;    
     text-align: center;
     height: 400px !important;
 }
-.carousel{
-}
-.zing-carousel{
-}
-.sliderImage{
+.carousel .item img {
+    width: 100%; /*img width*/
     position: relative;
     margin: auto;
     top: 0;
@@ -70,10 +75,20 @@ h2{
     right: 0;
     bottom: 0;
 }
-
-.carousel-control.left, .carousel-control.right {
-    background-image: none
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
 }
+/*full width container*/
+@media (max-width: 767px) {
+    .zing-carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-top: -20px;
+    }
+}
+
 
 #howItWorks h2{
     text-align: center;
@@ -102,8 +117,8 @@ h2{
   background-color: #f5f5f5;
 }
 
-.footer-social { float: left; margin-top:5px; }
+.footer-social {margin-top:36px; }
 .footer-social ul { padding:0; margin:0 0 0 10px;}
 .footer-social li {float:left; list-style:none; margin-left:5px;}
 .footer-social li img {max-width: 70px;}
-.footer span { margin-top: -20px; float: left;}
+.footer span {float: left;}
